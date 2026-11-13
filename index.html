@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Kanzariya Vipul, a BCA student and aspiring web developer from Morbi, Gujarat.">
+  <meta name="theme-color" content="#f7f9fc">
+  <meta property="og:title" content="Kanzariya Vipul | Web Developer">
+  <meta property="og:description" content="A selection of my skills, projects, education and contact information.">
+  <title>Kanzariya Vipul | Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Kanzariya Vipul home"><span class="brand-mark">KV</span><span>vipul<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a>
+        <a class="nav-contact" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section container" id="home">
+      <div class="hero-copy">
+        <div class="availability"><span class="status-dot"></span> Open to learning & opportunities</div>
+        <p class="eyebrow">HELLO, I'M KANZARIYA VIPUL</p>
+        <h1>I build for the <span class="text-accent">web.</span></h1>
+        <p class="hero-description">I'm an aspiring web developer with a BCA background who enjoys turning ideas into clean, useful and responsive web experiences.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-meta"><span>Based in Morbi, Gujarat</span><span class="meta-divider"></span><span>India</span></div>
+      </div>
+      <div class="hero-visual" aria-label="Decorative developer workspace illustration">
+        <div class="visual-glow"></div>
+        <div class="code-window">
+          <div class="window-top"><div class="window-dots"><i></i><i></i><i></i></div><span>developer.js</span><span class="window-menu">•••</span></div>
+          <div class="code-content">
+            <div><span class="line-no">01</span><span class="code-purple">const</span> <span class="code-blue">developer</span> = {</div>
+            <div><span class="line-no">02</span>&nbsp;&nbsp;name: <span class="code-green">'Vipul'</span>,</div>
+            <div><span class="line-no">03</span>&nbsp;&nbsp;focus: <span class="code-green">'Web Development'</span>,</div>
+            <div><span class="line-no">04</span>&nbsp;&nbsp;learning: <span class="code-green">'Every day'</span>,</div>
+            <div><span class="line-no">05</span>&nbsp;&nbsp;mindset: <span class="code-green">'Keep building'</span></div>
+            <div><span class="line-no">06</span>};</div>
+            <div class="code-cursor"><span class="line-no">07</span><span class="cursor"></span></div>
+          </div>
+          <div class="window-footer"><span><i class="footer-check">✓</i> Ready to create</span><span>UTF-8&nbsp;&nbsp; JavaScript</span></div>
+        </div>
+        <div class="float-card float-card-top"><span class="float-icon">✳</span><span><b>Curious mind</b><small>Always learning</small></span></div>
+        <div class="float-card float-card-bottom"><span class="float-icon purple">⌘</span><span><b>Building projects</b><small>One step at a time</small></span></div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> Scroll to explore</a>
+    </section>
+
+    <section class="section section-muted" id="about">
+      <div class="container two-column">
+        <div class="section-heading reveal"><p class="eyebrow">01 / ABOUT</p><h2>A little about <span class="text-accent">me.</span></h2></div>
+        <div class="about-content reveal">
+          <p class="lead">I studied Bachelor of Computer Applications (BCA) at OMVM College, affiliated with Saurashtra University.</p>
+          <p>I’m interested in web development and enjoy learning how websites are designed, built and improved. I have worked with frontend and backend technologies and developed a Personal Fitness Tracker as an academic project.</p>
+          <p>I'm at the beginning of my professional journey, looking to strengthen my fundamentals, learn from experienced developers and contribute to real-world projects.</p>
+          <div class="about-facts">
+            <div><strong>2023–2026</strong><span>BCA journey</span></div>
+            <div><strong>MERN</strong><span>Project experience</span></div>
+            <div><strong>Curiosity</strong><span>My learning fuel</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading reveal"><p class="eyebrow">02 / WHAT I USE</p><h2>Skills & <span class="text-accent">technologies.</span></h2><p class="section-intro">Tools and technologies I have studied and used in my projects. I'm continuing to improve through practice.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><div class="skill-icon">〈〉</div><h3>Frontend</h3><p>Building responsive interfaces and user-friendly layouts.</p><div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React</span><span>Bootstrap</span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon">{ }</div><h3>Backend</h3><p>Learning server-side development and API integration.</p><div class="tags"><span>Node.js</span><span>Express.js</span><span>REST APIs</span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon">▤</div><h3>Database & tools</h3><p>Working with data and version control in development.</p><div class="tags"><span>MongoDB</span><span>Git</span><span>GitHub</span></div></article>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="projects">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">03 / SELECTED WORK</p><h2>Projects I've <span class="text-accent">worked on.</span></h2><p class="section-intro">A practical way to apply what I learn and understand how the pieces of a web application fit together.</p></div>
+        <article class="project-card reveal">
+          <div class="project-preview">
+            <div class="dashboard-mock">
+              <div class="mock-sidebar"><b>fit<span>track.</span></b><i></i><i></i><i></i><i></i></div>
+              <div class="mock-main"><div class="mock-heading"><span>Dashboard</span><small>Welcome back!</small></div><div class="mock-stats"><i></i><i></i><i></i></div><div class="mock-chart"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div><div class="mock-bottom"><i></i><i></i></div></div>
+            </div>
+            <span class="preview-label">ACADEMIC PROJECT</span>
+          </div>
+          <div class="project-info">
+            <p class="eyebrow">01 / FULL-STACK WEB APPLICATION</p>
+            <h3>FitTrack – Personal Fitness Tracker</h3>
+            <p>A fitness tracking web application created to help users record and manage workout, diet and BMI information through a single dashboard.</p>
+            <ul class="project-features"><li>Workout, diet and BMI tracking</li><li>User authentication and profile features</li><li>Admin dashboard and food store management</li><li>AI-assisted diet estimation features</li></ul>
+            <div class="tags"><span>React</span><span>Node.js</span><span>Express.js</span><span>MongoDB</span><span>Bootstrap</span></div>
+            <div class="project-links"><a class="text-link" data-link="fittrackDemo" href="#" target="_blank" rel="noreferrer">Live demo ↗</a><a class="text-link" data-link="fittrackCode" href="#" target="_blank" rel="noreferrer">Source code ↗</a></div>
+            <p class="link-note" data-note="fittrack">Add your actual deployed website and repository URLs in <code>config.js</code>.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="education">
+      <div class="two-column education-layout">
+        <div class="section-heading reveal"><p class="eyebrow">04 / EDUCATION</p><h2>My learning <span class="text-accent">journey.</span></h2><p class="section-intro">Building a foundation in computer applications and software development.</p></div>
+        <div class="timeline reveal">
+          <div class="timeline-item"><span class="timeline-dot"></span><span class="timeline-date">2023 — 2026</span><h3>Bachelor of Computer Applications (BCA)</h3><p>OMVM College · Saurashtra University</p><span class="timeline-status">Semester 6</span></div>
+          <div class="timeline-item"><span class="timeline-dot"></span><span class="timeline-date">2023</span><h3>Higher Secondary Education (12th)</h3><p>Gujarat Secondary and Higher Secondary Education Board</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-wrap reveal">
+        <p class="eyebrow">05 / CONTACT</p><h2>Have a project or opportunity<br>in <span class="text-accent">mind?</span></h2>
+        <p class="contact-intro">I'm interested in learning, collaborating and exploring opportunities in web development. Feel free to reach out.</p>
+        <a class="button button-primary contact-button" data-email-link href="mailto:YOUR_EMAIL@example.com">Say hello <span aria-hidden="true">↗</span></a>
+        <div class="social-links"><a data-social="github" href="#" target="_blank" rel="noreferrer">GitHub ↗</a><a data-social="linkedin" href="#" target="_blank" rel="noreferrer">LinkedIn ↗</a><a data-social="email" href="mailto:YOUR_EMAIL@example.com">Email ↗</a></div>
+        <p class="contact-note" data-contact-note>Update your email and social profile URLs in config.js before publishing.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">KV</span><span>vipul<span class="brand-dot">.</span></span></a><span>Designed & built by Kanzariya Vipul</span><span>© <span id="year"></span> All rights reserved.</span></div></footer>
+</body>
+</html>
